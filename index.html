@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservez votre prochaine Porsche avec notre formulaire en ligne. Découvrez les modèles disponibles et leurs caractéristiques.">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.google.com/share?selection.family=Fjalla+One|Playwrite+MX+Guides" rel="stylesheet">
+    <title>Réservation Porsche</title>
+</head>
+<body>
+<header>
+    <img src="./assets/580b585b2edbce24c47b2cac.png" width="70" alt="Image de Porsche">
+    <h1>Réservez Votre Prochaine Porsche</h1>
+</header>
+<nav>
+    <a href="#introduction">Accueil</a>
+    <a href="#details">Détails</a>
+    <a href="#reservation">Réservation</a>
+</nav>
+<main>
+    <section id="introduction">
+        <h2>Découvrez les modèles Porsche disponibles</h2>
+        <p>Porsche vous offre une expérience de conduite inégalée avec des designs innovants et des performances de classe mondiale.</p>
+        <img src="https://delessencedansmesveines.com/wp-content/uploads/2015/01/zzz-DLEDMV-Porsche-911-Targa-4-GTS-Detroit-001.jpg" alt="Image de Porsche">
+    </section>
+
+    <section id="details">
+        <h2>Détails des Modèles</h2>
+        <p>Explorez notre gamme complète :</p>
+        <ul>
+            <li><strong>Porsche 911</strong> - L'icône des voitures de sport.</li>
+            <li><strong>Porsche Taycan</strong> - Innovation électrique.</li>
+            <li><strong>Porsche Cayenne</strong> - Le SUV performant.</li>
+        </ul>
+    </section>
+
+    <section id="reservation">
+        <h2>Formulaire de Réservation</h2>
+        <form>
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Adresse email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="model">Modèle souhaité :</label>
+            <select id="model" name="model" required>
+                <option value="">-- Choisissez un modèle --</option>
+                <option value="911">Porsche 911</option>
+                <option value="taycan">Porsche Taycan</option>
+                <option value="cayenne">Porsche Cayenne</option>
+            </select>
+
+            <label for="extras">Extras souhaités :</label>
+            <input type="checkbox" id="extras-leather" name="extras" value="leather">
+            <label for="extras-leather">Intérieur en cuir</label>
+            <input type="checkbox" id="extras-sunroof" name="extras" value="sunroof">
+            <label for="extras-sunroof">Toit ouvrant</label>
+
+            <label for="message">Message ou instructions spéciales :</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Réserver</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; Réservation de Porcherie 2024 . Tous droits réservés.</p>
+</footer>
+</body>
+</html>
